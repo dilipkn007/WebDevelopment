@@ -54,12 +54,6 @@
 		height: 200px;
 	}
 
-	footer{
-		position: absolute;
-		bottom: 0px;
-		right: 0px;
-		font-size: 25px;
-	}
 	
 	
 	/*desktop version*/
@@ -69,6 +63,12 @@
 			width: 33.33%;
 			overflow: auto;
 		}
+		footer{
+		    position: absolute;
+		    bottom: 0px;
+		    right: 0px;
+		    font-size: 25px;
+	}
 	}
 	/*tablet version*/
 	@media (min-width: 768px) and (max-width: 991px){
@@ -85,6 +85,16 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+		.colmn-md-12.div{
+			height: 350px;
+		}
+	footer{
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		font-size: 18px;
+		position: fixed;
+		background-color:rgb(0,0,0,0);
 	}
 	/*mobile version*/
 	@media (max-width: 767px){
@@ -93,4 +103,12 @@
 			width: 100%;
 			overflow: auto;
 		}
+		footer{
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		font-size: 20px;
+		position: fixed;
+		background-color:rgb(0,0,0,0);
+	}
 	}
